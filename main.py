@@ -2,8 +2,6 @@ import pickle
 import pandas as pd
 import streamlit as st
 from sklearn.preprocessing import StandardScaler
-from sklearn.compose import ColumnTransformer
-from sklearn.pipeline import Pipeline, make_pipeline
 
 st.set_page_config(layout="wide")
 
@@ -16,7 +14,7 @@ def Headder():
     page_bg_img = f"""
     <style>
     [data-testid="stAppViewContainer"] > .main {{
-        background-image: url("https://raw.githubusercontent.com/kunal-mallick/Kaggle-Project/main/Water%20Quality(Drinking%20Water%20Potability)/img/Header.png");
+        background-image: url("https://raw.githubusercontent.com/kunal-mallick/Water-Quality/main/img/Header.png");
         background-size: 100%;
         background-position: top;
         background-repeat: no-repeat;
@@ -86,7 +84,7 @@ def pred(PH, Hardness, Solids, Chloramines, Sulfate, Conductivity, Organic_Carbo
 # Water Checker
 def Water_Checker():
     ## Water Checker(title)
-    st.image('https://raw.githubusercontent.com/kunal-mallick/Kaggle-Project/main/Water%20Quality(Drinking%20Water%20Potability)/img/Frame%201.png')
+    st.image('https://raw.githubusercontent.com/kunal-mallick/Water-Quality/main/img/Frame%201.png')
 
     ## Water Checker(input)
     c1 = st.columns(3)
@@ -154,7 +152,7 @@ text-align: center;
 }
 </style>
 <div class="footer">
-<img src ='https://raw.githubusercontent.com/kunal-mallick/Kaggle-Project/main/Water%20Quality(Drinking%20Water%20Potability)/img/Frame%202.png' style="vertical-align:centre"></img>
+<img src ='https://raw.githubusercontent.com/kunal-mallick/Water-Quality/main/img/Frame%202.png' style="vertical-align:centre"></img>
 </div>
 """
 
