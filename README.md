@@ -1,4 +1,9 @@
 # Water Quality Checker
+![GitHub repo size](https://img.shields.io/github/repo-size/kunal-mallick/Water-Quality?style=social)
+![GitHub](https://img.shields.io/github/license/kunal-mallick/Water-Quality?style=social)
+![GitHub last commit](https://img.shields.io/github/last-commit/kunal-mallick/Water-Quality?style=social)
+![GitHub commit activity](https://img.shields.io/github/commit-activity/w/kunal-mallick/Water-Quality?style=social)
+
 Water Quality Checker is a tool that can help you determine if the water you drink is safe and pure. It uses machine learning to analyze various parameters of water quality, such as pH, hardness, solids, chloramines, sulfate, conductivity, organic carbon, trihalomethanes, and turbidity. You need to input these values in the form below and the model will predict whether the water is fit for consumption or not.
 
 Water quality is essential for your health and well-being. According to the World Health Organization, more than two billion people use a drinking water source contaminated with feces. Contaminated water can cause diseases such as diarrhea, cholera, dysentery, typhoid, and polio. Therefore, it is important to test your water quality regularly and take appropriate measures to ensure its safety.
@@ -7,7 +12,7 @@ To use the Water Quality Checker, please fill in the following form with the val
 
 | Parameter |
 | --- |
-| pH |
+| PH |
 | Hardness |
 | Solids |
 | Chloramines |
@@ -60,13 +65,16 @@ If you have any questions or feedback about the Water Quality Checker, please fe
 
 
 ## Setup
-- For Online[click here](https://water-quality-checker.streamlit.app/)
+- For Online [click here](https://water-quality-checker.streamlit.app/)
 
-- For Offline download everything in requirements.txt and then open the anaconda / python terminal and run this line of code
+- For Offline download everything in requirements.txt and then open the anaconda / python terminal and run this line of code :
  
- `cd file path`
-
- `streamlit run main.py`
+```bash
+cd file path
+```
+```bash
+streamlit run main.py
+```
 
 
 ## Usage
